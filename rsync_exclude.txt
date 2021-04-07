@@ -1,0 +1,8 @@
+.git/
+.DS_Store
+*.pyc
+.vscode/
+.idea/
+*.db
+.venv
+fabfile.py
