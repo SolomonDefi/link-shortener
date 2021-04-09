@@ -9,7 +9,7 @@ db = SQLAlchemy()
 
 class URL(db.Model):
     """
-    User address model
+    Short URL model
     """
 
     __tablename__ = 'urls'

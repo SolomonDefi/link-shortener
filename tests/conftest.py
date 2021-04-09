@@ -39,7 +39,7 @@ def db_setup():
 @pytest.fixture(scope='session')
 def app():  # pylint: disable=redefined-outer-name
     """An app for testing"""
-    load_dotenv(dotenv_path='env/debug.env')
+    load_dotenv(dotenv_path='.env.dist')
     db_uri = db_setup()
     shortener_app = create_app(
         config_override={

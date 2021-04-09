@@ -20,9 +20,6 @@ def make_shortener(app):
     blueprint = Blueprint(
         'shortener',
         __name__,
-        static_folder='static',
-        template_folder='templates',
-        static_url_path='/shortener/static',
         url_prefix='/api',
     )
 
