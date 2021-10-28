@@ -2,6 +2,12 @@
 .gitignore
 README.md
 
+# Python
+__pycache__
+*.pyc
+.venv/
+.pytest*/
+
 #
 # OS X
 #
